@@ -1,7 +1,6 @@
 
-
-let qtdVitorias = 76
-let qtdDerrotas = 24
+let qtdVitorias = 250
+let qtdDerrotas = 120
 let jogador = "Bruno"
 position = qtdVitorias - qtdDerrotas
 
@@ -15,25 +14,25 @@ function classifyPlayer(){
 
    switch (true) {
       case position <= 10:
-         console.log("O player tem classificação: FERRO!")
+         console.log("O heroi tem saldo de vitorias " + position + " Está no nível: FERRO!")
          break;
       case (position >= 11) && (position <= 20):
-         console.log("O player tem classificação: BRONZE!")
+         console.log("O heroi tem saldo de vitorias " + position + " Está no nível: BRONZE!")         
          break;  
       case (position >= 21) && (position <= 50):
-         console.log("O player tem classificação: PRATA!")
+         console.log("O heroi tem saldo de vitorias " + position + " Está no nível: PRATA!")
          break;   
       case (position >= 51) && (position <= 80):
-         console.log("O player tem classificação: OURO!")
+         console.log("O heroi tem saldo de vitorias " + position + " Está no nível: OURO!")
          break;   
       case (position >= 81) && (position <= 90):
-         console.log("O player tem classificação: DIAMANTE!")
+         console.log("O heroi tem saldo de vitorias " + position + " Está no nível: DIAMANTE!")
          break;
       case (position >= 91) && (position <= 100):
-         console.log("O player tem classificação: LENDÁRIO!")
+         console.log("O heroi tem saldo de vitorias " + position + " Está no nível: LENDÁRIO!")
          break;
       case (position >= 101): 
-         console.log("O player tem classificação:  IMORTAL!")
+         console.log("O heroi tem saldo de vitorias " + position + " Está no nível: IMORTAL!")
          break;      
    }
 }
